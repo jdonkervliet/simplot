@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simplot"
+version = "0.1.0"
+description = ""
+authors = ["Jesse Donkervliet <j.donkervliet@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+seaborn = "^0.13.2"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
